@@ -104,20 +104,18 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
               </button>
             </form>
 
-           <div className="mt-6 pt-6 border-t border-slate-100 text-center">
-  <p className="text-xs text-slate-500 mb-2">
-    Authorized Personnel & Students Only
+          <div className="mt-6 pt-4 border-t border-slate-100 text-center text-xs text-slate-600">
+  <p className="text-slate-500">Demo Credentials</p>
+
+  <p className="mt-1">
+    <span className="font-medium">Student:</span> 45@klh.edu.in / demopass123
   </p>
 
-  <p className="text-sm font-semibold text-red-500">
-    Demo Credentials
-  </p>
-
-  <p className="mt-1 text-sm text-slate-700">
-    <span className="font-medium">User ID:</span> 45@klh.edu.in <br />
-    <span className="font-medium">Password:</span> demopass123
+  <p>
+    <span className="font-medium">Admin:</span> admin@klh.edu.in / klh@1234
   </p>
 </div>
+
 
           </div>
         </div>
