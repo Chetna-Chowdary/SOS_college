@@ -1,0 +1,8 @@
+
+{
+  "name": "College SOS - Student Emergency System",
+  "description": "A high-performance safety application for college campuses featuring instant SOS triggers, live geolocation tracking, and an administrative response dashboard.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
